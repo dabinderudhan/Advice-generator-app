@@ -28,17 +28,20 @@ body {
 
 .attribution {
   font-size: 11px;
-  text-align: center; }
+  text-align: center;
+  color: #4e5d73; }
   .attribution a {
-    color: #3e52a3; }
+    color: #cee3e9;
+    font-weight: normal; }
 
 .grid {
   display: grid; }
 
 .advice-container {
+  width: 21rem;
   background-color: #323a49;
   border-radius: 10px;
-  padding: 1.5rem;
+  padding: 2.5rem 1rem;
   gap: 1rem;
   position: relative; }
 
@@ -51,14 +54,24 @@ body {
 
 .advice-quote {
   color: #cee3e9;
-  font-size: 28px; }
+  font-size: 28px;
+  text-align: center; }
 
 .advice-divider {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2rem; }
 
 .advice-dice {
+  cursor: pointer;
   position: absolute;
   bottom: -31px;
   padding: 0.8rem 1.2rem;
   border-radius: 50px;
   background-color: #52ffa8; }
+  .advice-dice:hover {
+    box-shadow: 0px 0px 15px 1px #52ffa8; }
+
+@media (min-width: 500px) {
+  .advice-container {
+    width: 30rem; }
+  .advice-divider {
+    content: url("../images/pattern-divider-desktop.svg"); } }
