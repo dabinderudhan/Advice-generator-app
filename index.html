@@ -28,11 +28,27 @@
 
     <title>Frontend Mentor | Advice generator app</title>
   </head>
-  <body>
-    Advice #<!-- Advice ID goes here -->
-
-    "<!-- Advice text goes here -->"
-
+  <body class="flex flex-col">
+    <main class="advice-container flex flex-col">
+      <p class="advice-title">Advice #<span class="advice-id"></span></p>
+      <blockquote class="advice-quote">
+        "<!-- Advice text goes here -->"
+      </blockquote>
+      <img
+        class="advice-divider"
+        src="./images/pattern-divider-mobile.svg"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="advice-dice">
+        <img
+          class="advice-dice--img"
+          src="./images/icon-dice.svg"
+          alt=""
+          aria-hidden="true"
+        />
+      </div>
+    </main>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

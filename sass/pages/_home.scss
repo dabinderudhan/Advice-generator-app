@@ -1,0 +1,36 @@
+.advice {
+  &-container {
+    background-color: $color-neutral-dark;
+    border-radius: 10px;
+    padding: 1.5rem;
+    gap: 1rem;
+    position: relative;
+  }
+
+  &-title {
+    color: $color-primary-green;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: normal;
+  }
+
+  &-quote {
+    color: $color-primary-light;
+    font-size: $fs-quote;
+  }
+
+  &-divider {
+    margin-bottom: 2.5rem;
+  }
+
+  &-dice {
+    position: absolute;
+    bottom: -31px;
+    // height: 3rem;
+    // width: 3rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 50px;
+    background-color: $color-primary-green;
+  }
+}
